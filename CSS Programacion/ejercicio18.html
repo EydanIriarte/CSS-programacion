@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+    .rounded-element {
+    border-radius: 10px;
+    border: 2px solid #f00;
+    padding: 10px;
+    background-color: salmon;
+  }
+.bordes{
+    border-radius: 15px 50px;
+}
+.bordes1{
+    border-radius: 15px 50px 30px 5px;
+}
+  .background-image {
+    background-image: url("https://i.pinimg.com/originals/0c/3a/ae/0c3aaef659863b56d3d3539eefb00c82.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    border: 3px solid #00f;
+    padding: 20px;
+    color: white;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Elemento con Bordes Redondeados</h2>
+  <div class="rounded-element">
+    <p>Este es un ejemplo de un elemento con bordes redondeados y borde rojo.</p>
+  </div>
+  <h2>Elemento con Borde de Color Específico</h2>
+  <div style="border: 2px solid #0f0; padding: 10px;" class="bordes1">
+    <p>Este es un ejemplo de un elemento con borde verde.</p>
+  </div>
+  <h2>Elemento con Bordes especificos</h2>
+  <div style="border: 1px solid #000; padding: 10px;" class="bordes">
+    <p>Este es un ejemplo de un elemento con un bordes especificos.</p>
+  </div>
+  <h2>Imagen de Fondo con Bordes</h2>
+  <div class="background-image" style="padding-bottom:1000px">
+    <p>Este es un ejemplo de una sección con una imagen de fondo y bordes redondeados y borde azul.</p>
+  </div>
+</div>
+</body>
+</html>

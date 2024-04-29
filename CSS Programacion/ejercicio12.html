@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static{
+        position: static;
+        border: 3px solid #73AD21
+        }
+        .relative{
+        position: relative;
+        top: 50px;
+        left: 15px;
+        border: 3px solid #73AD21;
+        }
+        .fixed{
+        position: fixed;
+        bottom: 150px;
+        right: 150px;
+        width: 300px;
+        border: 3px solid #73AD21;
+        }
+        .relativo2 {
+        position: relative;
+        top: 150px;
+        width: 400px;
+        height: 200px;
+        border: 3px solid #73AD21;
+}
+        .absolute {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        border: 3px solid #73AD21;
+}
+        .sticky {
+        position: sticky;
+        top: 0;
+        background-color: green;
+        border: 2px solid #4CAF50;
+}
+    </style>
+</head>
+<body>
+    <div style="padding-bottom:2000px">
+        <div class="sticky">
+            <p>Esta propiedad del div siempre va a estar en el encabezado de la pagina</p>
+        </div> 
+        <div class="static">
+        <p>este div no es afectado dentro del css por las propiedades de top, bottom, left, right</p>
+    </div><br>
+    <div class="relative">
+        <p>el div con la propiedad relative te permite colocar en cualquier posicion el texto</p>
+    </div>
+    <div class="fixed">
+        <p>este dive se puede colocar en cualquier punto de la pestaña permitiendo las propiedades de top,left,right,bottom</p>
+    </div>
+    <div class="relativo2">
+        <p>Ejemplo</p>
+        <div class="absolute" >
+            <p>esta propiedad es abosluta</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

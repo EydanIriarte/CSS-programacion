@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+  .div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .opacity-img {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+
+  .opacity-img:hover {
+    opacity: 1;
+  }
+
+  .opacity-box {
+    background-color: rgba(219, 9, 9, 0.158);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+  }
+</style>
+</head>
+<body>
+<div class="div">
+  <h2>imagen con opacidad al pasar el mouse</h2>
+  <img src="C:\Users\eydan\Desktop\epc\Programacion\CSS Programacion\CSS Programacion\hq720.jpg" alt="" class="opacity-img">
+  
+  <h2>opacidad hover</h2>
+  <p>Desliza el mouse sobre el párrafo para ver el efecto de opacidad.</p>
+  <p class="opacity-img">Este párrafo tendrá opacidad al pasar el mouse sobre él.</p>
+  
+  <h2>Caja con Opacidad</h2>
+  <div class="opacity-box">
+    <p>Este es un ejemplo de una caja con opacidad.</p>
+    <p>Se puede ajustar el nivel de opacidad cambiando el valor de rgba.</p>
+  </div>
+</div>
+</body>
+</html>

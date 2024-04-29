@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .visible {
+        width: 200px;
+        height: 65px;
+        background-color: coral;
+        overflow: visible;
+}
+        .hidden {
+        position: relative;
+        background-color: rgb(7, 160, 28);
+        width: 200px;
+        height: 90px;
+        border: 1px solid black;
+        overflow: hidden;
+        top: -65px;
+        left: 200px;
+
+}
+        .scroll{
+        position: relative;
+        background-color: rgb(7, 160, 28);
+        width: 200px;
+        height: 90px;
+        border: 1px solid black;
+        overflow: scroll;
+        top: -155px;
+        left: 401px;
+        }
+        .auto{
+        position: relative;
+        background-color: rgb(7, 160, 28);
+        width: 200px;
+        height: 90px;
+        border: 1px solid black;
+        overflow: scroll;
+        top: -248px;
+        left: 602px;
+        }
+    </style>
+</head>
+<body>
+    <div class="visible">
+        <p>
+           El overflow  visible sirve para delimitar un texto en el sitio web si es demasiado grande
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure vero, asperiores repellat animi debitis et ab mollitia commodi sint veritatis repellendus laborum voluptatibus voluptatum inventore magni omnis rerum molestiae beatae.
+        </p>
+    </div>
+    <div class="hidden">
+        <p>el overflow hidden oculta el texto sobrante de lo delimitado
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, sapiente, possimus qui laborum optio quaerat tempora, provident illo debitis dicta ipsum itaque soluta iusto iure cupiditate et labore tempore sed.
+        </p>
+    </div>
+    <div class="scroll">
+        <p>El overflow scroll sirve para ver el texto sobrante
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis totam, odit officia nihil saepe illo rerum. Vel voluptatum expedita, aliquid impedit aperiam maxime est consectetur quam. Asperiores culpa exercitationem sed!
+        </p>
+    </div>
+    <div class="auto">
+        <p>El overflow auto es similar al scroll solo con la diferencia de que agrega una barra de desplazamiento si es necesario
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ex alias nesciunt voluptates eligendi provident nam, iure magnam porro dolorem voluptatum rerum atque debitis maxime commodi doloribus ipsam sequi inventore!
+        </p>
+    </div>
+</body>
+</html>
